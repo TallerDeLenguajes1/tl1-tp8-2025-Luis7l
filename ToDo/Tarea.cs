@@ -8,10 +8,7 @@ namespace claseTarea
         public int TareaID { get; set; }
         public string? Descripcion { get; set; }
         public int Duracion
-        {
-            get;
-            set;
-        }
+        { get; set;}
 
         public Tarea(int id, string descri, int duracion)
         {
