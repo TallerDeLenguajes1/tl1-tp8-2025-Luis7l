@@ -112,7 +112,7 @@ namespace programa
         {
             foreach (Tarea tarea in Pendientes)
             {
-                if (tarea.Descripcion != null &&tarea.Descripcion.StartsWith(Buscar_descripcion,StringComparison.OrdinalIgnoreCase));
+                if (tarea.Descripcion != null &&tarea.Descripcion.StartsWith(Buscar_descripcion,StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine($"Id: {tarea.TareaID}");
                     Console.WriteLine($"Descripción: {tarea.Descripcion}");
